@@ -1,0 +1,66 @@
+:root{
+    --text-primary:#f8f8f2;
+    --text-secondary:#643173;
+    --bg-primary:#44475a;
+    --bg-secondary:#6272a4;
+    --bg-darkmode:#333333;
+    --bd-primary:#f1fa8c;
+    --bd-secondary:#ff79c6;
+    --font-family:'Roboto', 'sans-serif';
+}
+/*
+dark purple:643173
+light purple:7D5BA6
+light green:89CE94
+ruby red:931621
+medium blue:3AAFB9
+light blue:64E9EE
+baby blue:97C8EB
+baby pink:EDAFB8
+*/
+body{
+    margin:0px;
+    background-color:var(--bg-darkmode);
+    transition:0.2s;
+    color:var(--text-primary)
+}
+.nav-wrapper{
+    background-color:var(--text-secondary);
+}
+#myName{
+    margin-left:5px;
+    transition:0.2s;
+}
+#myName:hover{
+    color:#D5DCF9;
+    transition:0.2s;
+}
+#nav-mobile > li > a{
+    font-size:25px;
+}
+
+/*About*/
+#HiImZG{
+    text-align: center;
+    color:var(--text-primary);
+}
+#HiImZGColour{
+    color:#7D5BA6;
+}
+#photoHere{
+    border:2px solid #7D5BA6;
+    text-align: center;
+    width:60%;
+    height:300px;
+    margin:none;
+}
+#photoHereText{
+    margin-top:10%;
+}
+#AboutMe > p{
+    text-align: center;
+    font-size:30px;
+}
+#aboutTitle{
+    color:#7D5BA6;
+}

@@ -64,3 +64,29 @@ body{
 #aboutTitle{
     color:#7D5BA6; 
 }
+/*Projects*/
+.projectsImages{
+    margin-top:5px;
+    display:inline-grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap:5px;
+    column-gap:5px;
+    
+}
+.projectsImages > div{
+    height:410px;
+    width:410px;
+    border:2px solid #7D5BA6;
+    text-align: center;
+}
+.projectsImages > div > h1{
+    margin-top:40%;
+}
+/*Extras*/
+#extras{
+    text-align: center;
+}
+#extras > p{
+    font-size:30px;
+}

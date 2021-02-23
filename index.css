@@ -68,7 +68,6 @@ body{
 .projectsImages{
     margin-top:5px;
     display:inline-grid;
-    grid-template-rows:50% 50%;
     grid-template-columns: repeat(3, 1fr);
     row-gap:5px;
     column-gap:5px;

@@ -66,19 +66,22 @@ body{
 }
 /*Projects*/
 .projectsImages{
+    margin:auto;
     margin-top:5px;
     display:inline-grid;
-    grid-template-rows:50% 50%;
     grid-template-columns: repeat(3, 1fr);
-    row-gap:5px;
+    row-gap: 5px;
     column-gap:5px;
-    
 }
 .projectsImages > div{
     height:410px;
     width:500px;
     border:2px solid #7D5BA6;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    row-gap:0px;
 }
 .projectsImages > div > h1{
     margin-top:35%;
